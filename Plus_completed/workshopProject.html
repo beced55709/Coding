@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rebeccas Workshop Project</title>
+  </head>
+  <style>
+    body {
+        background: linear-gradient(to left, #333, #333 99%, #eee 99%, #333 15%);
+      }
+    h1,
+    h2 {
+        display: block;
+        color: #e5ebee;
+        font-weight: bold;
+        margin: 0;
+        font-size: 48px;
+        line-height: 48px;
+        text-align: center;
+      }
+      h3 {
+        display: block;
+        color: #e5ebee;
+        font-weight: bold;
+        margin: 0;
+        font-size: 24px;
+        line-height: 48px;
+        text-align: center;
+      }
+      h4 {
+        display: block;
+        color: #e5ebee;
+        font-weight: bold;
+        margin: 0;
+        font-size: 24px;
+        line-height: 48px;
+        text-align: center;
+      }      
+          
+      button {
+        display: block;
+        color: burlywood;
+        background: transparent;
+        font-size: 14px;
+        padding: 5px 10px;
+        margin: 20px auto;
+        border: 1px solid white;
+        border-radius: 5px; 
+        box-shadow: 5px 5px 10px rgba(red, green, blue, alpha) (0, 0, 0, 0.3);
+        transition: all 150ms ease-in-out;
+      }
+      button:hover {
+        background-color: burlywood;
+        color: black;
+        cursor: pointer;
+        text-align: center;
+      }
+
+      img {
+        display: block;
+        margin: 0 auto;
+        border-radius: 5px;    
+      }
+
+      p {
+line-height: 1.5;
+font-size: 12px;
+text-align: center;
+color: burlywood;
+      }
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px;
+}
+      .contact-details {
+        text-align: center;
+        font-size: 12px;
+        color: wheat;
+        text-decoration: none;
+      } 
+
+      .contact-details a {
+        font-size: 12px;
+        color: wheat;
+      }
+      .author-details a {
+        font-size: 12px;
+        color: wheat;
+      } 
+      .author-details {
+        text-align: center;
+        font-size: 12px;
+        color: wheat;       
+      }
+      .author-details:hover {
+        text-decoration: underline;
+        text-decoration-color: wheat;
+        color: wheat;
+      }
+
+  </style>
+  <body>
+    <div class="container">
+    <h1></h1>
+    <h2>Wildview Lodge</h2>
+    <h3>Cabin Rentals in the Chippewa National Forest</h3>
+    <h4>On Beautiful Little Island Lake, <em>Since 1941</em></h4>
+
+        <p>
+In 1941, Harry and Frances Barcus, early settlers in the Chippewa National Forest,
+along with their four sons,<br> Douglas, Robert, Glen and Wayne, carved out pristine
+cabin sites along the shores of Little Island Lake.<br>
+They built cabins from the materials available on the land. </br>
+Now, nearly 100 years later, the cabins remain. On this land. Still pristine.
+        </p>
+      <img
+      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/099/207/original/WildviewBear.jpg?1696595919"
+      alt="Wooden-Bear-holding-fishing-gear"
+      width="300"
+      >
+      <p>
+
+      </p>
+      <button><strong>Check Availability</strong></button>
+      <script>
+function availabilityCheck() {
+  let name = prompt("Hello, welcome to Wildview, what is your name?");
+  let stay = prompt("What month of the year would you like to stay?");
+  if (stay === "May" || stay === "June") {
+    alert("Hello, " + name + ", we have availability then, please send us an email with your exact dates.");
+  } else {
+    alert("Sorry, " + name + ", we do not have any openings at that time. Please check back, and in the meantime, connect with us on Facebook.");
+  }
+}
+
+let moreInfoButton = document.querySelector("button");
+moreInfoButton.addEventListener("click", availabilityCheck);
+</script>
+<p>
+
+</p>
+</br>
+
+    <div class="contact-details">
+        Contact us for more information: </br>
+        Email: Reservations@Wildview.com</br>
+      Connect with us on Facebook: <a href="https://www.facebook.com/wildviewlodgeresort/">@WildviewLodgeResort</a> 
+                   
+      </div>
+    </br>
+
+<div class="author-details">
+    This page was built by <a href="https://www.linkedin.com/in/rebeccalevitz">Rebecca Levitz</a>
+</div>
+
+</div>
+  </body>
+  
+</html>

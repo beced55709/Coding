@@ -1,0 +1,26 @@
+h1 {
+margin: 0;
+font-size: 20px;
+font-weight: 100;
+line-height: 28px;
+}
+ul {
+    margin: 0 0 10px;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+.weather-app {
+    padding: 20px;
+    border: 1px solid lightblue;
+    margin: 25px;
+    max-width: 600px;
+    border-radius: 10px;
+}
+.temperature {
+    font-size: 65px;
+    line-height: 1;
+    font-weight: 400;
+
+}

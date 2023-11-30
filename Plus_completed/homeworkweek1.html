@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <style>
+      body {
+        background-color: #f1f6f9;
+      }
+      h1,
+      h2,
+      h3 {
+        font-family: Roboto;
+        text-align: center;
+      }
+      h1 {
+        display: block;
+        color: #1a64d6;
+        font-weight: bold;
+        margin: 0;
+        font-size: 34px;
+        line-height: 48px;
+        margin-block-start: 0.67em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+      }
+      h2 {
+        color: black;
+        font-size: 26px;
+        margin: 0;
+        font-size: 34px;
+        line-height: 48px;
+        font-weight: normal;
+      }
+      h3 {
+        font-size: 22px;
+      }
+      ul {
+        padding: 0;
+      }
+      li {
+        list-style: none;
+        color: black;
+        text-align: center;
+        padding: 10px 0;
+        border-radius: 10px;
+        transition: all 200ms ease-in-out;
+        max-width: 400px;
+        margin: 0 auto;
+      }
+      li:hover {
+        background-color: #fffbef;
+      }
+      p {
+        color: black;
+        font-size: 18px;
+        opacity: 0.7;
+        text-align: center;
+        font-family: monospace;
+      }
+      button {
+        display: block;
+        border: 1px solid #1a64d6;
+        background: #1a64d6;
+        border-radius: 30px;
+        box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.3);
+        color: #f1f6f9;
+        font-size: 16px;
+        line-height: 22px;
+        margin: 20px auto;
+        padding: 16px 24px;
+        transition: all 200ms ease;
+        box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+        cursor: pointer;
+      }
+      button:hover {
+        color: #1a64d6;
+        background-color: #f1f6f9;
+        cursor: pointer;
+        border: 1px solid #1a64d6;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      &#x26c5; <br />
+      Currently 19° in Sydney
+    </h1>
+    <h2>
+      9° /
+      <strong> 19° </strong>
+    </h2>
+    <div class="weather">
+      <ul>
+        <li>
+          <h3>🌧️ Tomorrow</h3>
+          <p>
+            8° /
+            <strong> 21° </strong>
+          </p>
+        </li>
+        <li>
+          <h3>☁️ Saturday</h3>
+          <p>
+            8° /
+            <strong> 23° </strong>
+          </p>
+        </li>
+        <li>
+          <h3>☀️ Sunday</h3>
+          <p>
+            8° /
+            <strong> 29° </strong>
+          </p>
+        </li>
+        <button>Change city</button>
+        <p>Coded by Rebecca Levitz</p>
+      </ul>
+    </div>
+  </body>
+</html>
